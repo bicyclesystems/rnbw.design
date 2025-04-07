@@ -20,13 +20,13 @@ const rnbwFooterTemplate = `
       <div class="column gap-s">
         <div class="row gap-xl">
           <div class="column gap-s">
-            <a href="https://github.com/weareunderdesign/rnbw" target="_blank">
+            <a href="https://github.com/bicyclesystems/rnbw" target="_blank">
               <span>github</span>
             </a>
           </div>
         
           <div class="column align-start gap-s">
-            <a href="https://x.com/rnbwapp" target="_blank">
+            <a href="https://x.com/bicyclesystems" target="_blank">
               <span>x</span>
             </a>
           </div>
