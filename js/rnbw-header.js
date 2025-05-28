@@ -40,22 +40,6 @@ class RnbwHeader extends HTMLElement {
     this.appendChild(style);
     this.innerHTML += headerTemplate;
   }
-
-  connectedCallback() {
-    this.highlightActiveLink();
-  }
-
-  highlightActiveLink() {
-    const currentUrl = window.location.href;
-    this.querySelectorAll("#nav-item").forEach((navItem) => {
-      if (navItem.href === currentUrl) {
-        const defaultIcon = navItem.querySelector(".default-icon");
-        if (defaultIcon) {
-          defaultIcon.classList.add("foreground-secondary");
-        }
-      }
-    });
-  }
 }
 
 customElements.define("rnbw-header", RnbwHeader);
