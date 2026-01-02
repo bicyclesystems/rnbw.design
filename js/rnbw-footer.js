@@ -98,7 +98,7 @@ class RnbwFooter extends HTMLElement {
     if (!customElements.get('svg-icon')) {
       return new Promise((resolve, reject) => {
         const script = document.createElement('script');
-        script.src = 'https://unpkg.com/@rnbws/svg-icon.js/dist/svg-icon.min.js';
+        script.src = 'https://bicyclesystems.github.io/svg-icon/svg-icon.js';
         script.onload = resolve;
         script.onerror = reject;
         document.head.appendChild(script);
